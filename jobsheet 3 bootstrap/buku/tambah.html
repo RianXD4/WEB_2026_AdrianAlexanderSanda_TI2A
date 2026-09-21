@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPUS-mini</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>SIMPUS-mini</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="list.html">Daftar Buku</a></li>
+                <li><a href="tambah.html">Tambah Buku</a></li>
+                <li><a href="../anggota/list.html">Daftar Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Tambah Buku</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="judul" class="form-label fw-semibold">Judul</label>
+                    <input type="text" class="form-control" id="judul" name="judul" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="pengarang" class="form-label fw-semibold">Pengarang</label>
+                    <input type="text" class="form-control" id="pengarang" name="pengarang" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="tahun" class="form-label fw-semibold">Tahun</label>
+                    <input type="number" class="form-control" id="tahun" name="tahun" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="isbn" class="form-label fw-semibold">ISBN</label>
+                    <input type="text" class="form-control" id="isbn" name="isbn" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="stok" class="form-label fw-semibold">Stok</label>
+                    <input type="number" class="form-control" id="stok" name="stok" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="kategori" class="form-label fw-semibold">Kategori</label>
+                    <select class="form-select" id="kategori" name="kategori">
+                        <option value="fiksi">Fiksi</option>
+                        <option value="non-fiksi">Non-Fiksi</option>
+                        <option value="referensi">Referensi</option>
+                    </select>
+                </div>
+                  <p>
+                    <button type="submit">Simpan</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 SIMPUS-mini &mdash; Jobsheet 1</p>
+    </footer>
+</body>
+
+</html>
